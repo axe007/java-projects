@@ -1,0 +1,40 @@
+Album;d1f4a5a4-f9d3-40e9-8ce0-9584b9570298;Abbey Road;The Beatles;1969;15.0;false
+Album;d1e3194b-a459-4af9-ac58-0e75ea96366d;Are You Experienced;Jimi Hendrix;1967;10.0;false
+Album;69b90758-9455-45b2-bf03-924f029a0ea2;Back in Black;AC/DC;1980;13.0;false
+Album;be44fb99-c424-4c5d-855a-44574d57f3b7;Blood on the Tracks;Bob Dylan;1975;10.0;false
+Game;41f1365e-0160-4024-aa68-fb2ac5131179;Civilization VI;Strategy;5.99;true
+Game;ead3014c-5db6-44d9-add3-47d06e1f23a0;DOTA 2;Multiplayer online;15.2;true
+Album;f8009a6c-3516-4dbd-b3e7-9c91bdc46f35;Exile on Main Street;The Rolling Stones;1972;14.0;false
+Game;5310ff73-5871-4210-b368-eff45cfd81a2;F1 2020;Racing;9.99;true
+Game;ec015b6d-6507-4d38-8070-469b5de92e65;Fallout 76;Role playing;12.5;false
+Game;44c166c6-2d5b-485f-b1dd-460cc47a789c;Final Fantasy XV Remaster;Role playing;15.0;false
+Game;b7adfac8-2b90-40bf-9e3f-8e8921068b82;Grand Theft Auto V;Action;8.75;false
+Album;9dbbd23c-5134-48bd-bc4a-919fbcd6000e;Greatest Hits;Queen;1981;20.0;true
+Album;40973b19-8dad-4da7-a2d7-0df5ec680342;Innervisions;Stevie Wonder;1973;8.0;false
+Album;f3212d21-1674-44ca-82ef-98a6a1ce8d19;Kid A;Radiohead;2000;9.0;false
+Album;71c9abe5-4756-4a36-98b9-34b4f4e9805b;Lemonade;Beyonce;2016;10.0;false
+Album;764b6134-6272-4e80-a674-14d3d5b97825;Nevermind;Nirvana;1991;12.0;false
+Game;176f530a-48a0-4106-80c2-a22d3fc938b7;The Last Of Us;Survival;10.5;false
+Album;f7e7ccc1-60b2-43ee-ac1f-08c1439016d4;Thriller;Michael Jackson;1982;18.0;false
+Game;e4470c63-05d9-40dd-aab0-838a80e2ae17;Titanfall 2;Shooter;10.0;true
+Employee;7f837d2f-210d-49fc-ba05-89d7b2eebf50;John;password123;1980;Main St 1;9000.0
+Employee;fc8adf2e-acec-4a6b-a863-3c3cd7b6ffef;David;password123;1990;Idylwood Rd 1;12000.0
+Employee;e9abce00-e18c-49de-a2d0-0f888ba63b78;Jenny;password123;1985;Adam St 1";7500.0
+Employee;194c754a-f9ef-4845-8f4b-9472854223d3;Sasha;password123;1980;Vienna Ct 1;6000.0
+Employee;ad2ce9f3-1ca3-410c-ad0f-ab8a19a30a58;Andy;password123;1991;Northside Rd 250;6000.0
+Employee;3c42c62b-08a9-4c0a-b315-e4aeb06a9baa;Robert;password123;1984;Lync St 1200;8000.0
+Employee;7cfc75fe-aaf9-49a3-b228-b3f013a3d72c;Danny;password123;1983;Maple Ave 110;9000.0
+Employee;536c90c4-6bad-4aab-8912-77a252c87d6c;Daniel;password123;1996;Mill St 510;4500.0
+Employee;b5f854f0-8bb0-4806-8fb7-8591641f9f3b;Jack;password123;1983;Tyco Rd B1;5000.0
+Employee;e677db16-e26b-4ea9-bf5e-1f4cf3e9e621;Audrey;password123;1999;Persimmon Dr 3957;4200.0
+Employee;cba2dc29-09f4-43b5-ad72-a84566b36892;Jill;password123;1988;Pimmit Dr 2311;5000.0
+Employee;20240a9c-e8d9-4880-a524-73d4c2c7615a;Joe;password123;1985;Main St 1900;8000.0
+Employee;3fb34c88-95b0-4620-acb9-492f27a4f63d;Doris;password123;1992;Some st 6500;4000.0
+Employee;b86569ca-3eb0-4a82-ad56-5000364075cf;Dulmaa;password123;1992;Nowhere St 1500;3500.0
+Employee;4506fcc0-5f20-418e-9182-e73ebb4dd833;Boldoo;password123;1995;Main 1;6000.0
+Customer;f7720d27-63e3-4aad-a4ff-bc230b62d3a9;John;password123;Silver;3
+Customer;f7b0bd80-2c68-4ea1-812b-2c2378a3bc13;Jane;password123;Regular;0
+Customer;b2e1d2b7-399c-4e33-b379-d02ee958432c;David;password123;Silver;2
+Customer;6ec23639-0d86-42f0-b325-d26ce1614f4f;Adam;password123;Platinum;1
+Customer;a4580212-ce8f-4ffd-8228-afc298500bed;Jennie;password123;Silver;1
+Customer;6f3f019d-e886-409d-b607-aa3994c4eb33;Conner;password123;Gold;3
