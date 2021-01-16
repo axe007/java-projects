@@ -11,9 +11,8 @@
 
 **About**
 ---
-	+ DART system v0.3
-    + Video game and music album rental shop software v0.3
-    + by Altansukh T.
+* DART system v0.3
+* Video game and music album rental shop software v0.3 by Altansukh T.
 
 **Running**
 ---
