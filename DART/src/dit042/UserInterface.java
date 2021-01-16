@@ -2,6 +2,7 @@ package dit042;
 
 import java.util.HashMap;
 import java.util.regex.Pattern;
+import dit042.DartController;
 
 /**
  * User Interface class
@@ -17,7 +18,7 @@ import java.util.regex.Pattern;
  */
 public class UserInterface {
     private final Helper getInput = new Helper();
-    private DartController dartController = new DartController();
+    private static DartController dartController = new DartController();
     private UserController userController = new UserController();
     private MessageController messageController = new MessageController();
     private static final String EOL = System.lineSeparator();
@@ -127,26 +128,28 @@ public class UserInterface {
                 String[] menuAcceptSet = new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"}; // Accepted responses for menu options
                 String userInput = getInput.getMenuInput("menuOptionPrompt", menuAcceptSet); // Calling Helper method
 
+                DartController dart = new DartController();
+
                 switch (userInput.toLowerCase()) {
                     case "1" -> userController.addEmployee();
                     case "2" -> userController.deleteEmployee();
                     case "3" -> userController.displayEmployees(false);
                     case "4" -> userController.calculateSalary();
-                    case "5" -> dartController.viewRentalTotalProfit();
-                    case "6" -> dartController.viewRentalProfitable();
-                    case "7" -> dartController.viewRentalFrequency();
-                    case "8" -> dartController.viewRentalBestCustomer();
-                    case "9" -> dartController.loadProductData();
-                    case "10" -> dartController.loadRentalData();
-                    case "11" -> dartController.saveProductData();
-                    case "12" -> dartController.saveRentalData();
+                    case "5" -> dart.viewRentalTotalProfit();
+                    case "6" -> dart.viewRentalProfitable();
+                    case "7" -> dart.viewRentalFrequency();
+                    case "8" -> dart.viewRentalBestCustomer();
+                    case "9" -> dart.loadProductData();
+                    case "10" -> dart.loadRentalData();
+                    case "11" -> dart.saveProductData();
+                    case "12" -> dart.saveRentalData();
                     case "13" -> mainMenu();
 
                     default -> printlnInterfaceLabels("menuOptionNoMatch");
                 }
             } while (session);
         } catch (Exception e) {
-            printlnInterfaceLabels("errorExceptionMenu", String.valueOf(e));
+            printlnInterfaceLabels("errorExceptionMainMenu", String.valueOf(e));
         }
     }
 
@@ -573,6 +576,7 @@ public class UserInterface {
         // Exception Errors
         interfaceDictionary.put("errorExceptionGeneric", "Exception error: %S1%");
         interfaceDictionary.put("errorExceptionMenu", "Exception error in menu: %S1%");
+        interfaceDictionary.put("errorExceptionMainMenu", "Exception error in Main menu: %S1%");
         interfaceDictionary.put("errorIdInputInvalid", "Id input is invalid. Please try again.");
         interfaceDictionary.put("errorFileNotFound", "File not found.");
         interfaceDictionary.put("errorFileIOError", "FileIO error. Please check.");

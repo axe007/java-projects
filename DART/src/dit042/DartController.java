@@ -33,12 +33,13 @@ import static java.util.stream.Collectors.toList;
  * @version 0.3
  */
 public class DartController {
-    private static Helper getInput = new Helper();
+
     private UserController userController = new UserController();
     private MessageController messageController = new MessageController();
     private static UserInterface userInterface = new UserInterface();
     private static ArrayList<Product> products = new ArrayList<>();
     private static ArrayList<Rental> rentals = new ArrayList<>();
+    protected static Helper getInput = new Helper();
 
     public void loadProductData() {
         try (BufferedReader fileReader = new BufferedReader(new FileReader(getInput.pathFinder("DartData")))) {
@@ -50,7 +51,6 @@ public class DartController {
                 if (columns[0].equals("Game")) {
                     String tempId = null;
                     String tempName = null;
-                    int tempYear = 0;
                     String tempGenre = null;
                     double tempDailyRent = 0;
                     boolean tempIsRented = false;
